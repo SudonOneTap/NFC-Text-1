@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Formular</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .header, .footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 30px;
+        }
+        .row {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .label {
+            width: 200px;
+            font-weight: bold;
+        }
+        .value {
+            flex: 1;
+        }
+        .note-text {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    Name
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="label">Name Mutter :</div>
+        <div class="value">Anna Prestroika</div>
+    </div>
+    <div class="row">
+        <div class="label">Name Vater :</div>
+        <div class="value">Peter Prestroika</div>
+    </div>
+    <div class="row">
+        <div class="label">Adresse 1 :</div>
+        <div class="value">Restelbergstrasse 71A, 8044 Zürich</div>
+    </div>
+    <div class="row">
+        <div class="label">Adresse 2 (optional):</div>
+        <div class="value">Erlimatt 12, 6305 Zug</div>
+    </div>
+    <div class="row">
+        <div class="label">Telefonnummer (Mutter) :</div>
+        <div class="value">XXX XXX XX XX</div>
+    </div>
+    <div class="row">
+        <div class="label">Telefonnummer (Vater) :</div>
+        <div class="value">YYY YYY YY YY</div>
+    </div>
+    <div class="row">
+        <div class="label">E-Mail (Mutter) :</div>
+        <div class="value"><a href="mailto:XXX@gmail.com">XXX@gmail.com</a></div>
+    </div>
+    <div class="row">
+        <div class="label">E-Mail (Vater) :</div>
+        <div class="value"><a href="mailto:XXX@gmail.com">XXX@gmail.com</a></div>
+    </div>
+    <div class="row">
+        <div class="label">Schule :</div>
+        <div class="value">Montana</div>
+    </div>
+</div>
+
+<div class="footer">
+    Notizen :
+</div>
+
+<div class="container note-text">
+    Zur Vollständigkeit von Allergien und Krankheiten. Weiterhin können Details hinzugefügt werden.
+</div>
+
+</body>
+</html>
